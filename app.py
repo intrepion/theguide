@@ -1,4 +1,6 @@
 #!/usr/bin/env python
+import os
+
 from flask import Flask
 
 PORT = os.environ.get('PORT', 5000)
